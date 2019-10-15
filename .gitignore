@@ -227,3 +227,8 @@ launchSettings.json
 /tools/Modules/tmp
 /tools/Az/Az.psm1
 /Azure.PowerShell.sln
+/start1playback.ps1
+/start1managedInstance.ps1
+/start1.ps1
+/PS-VSPrompt.zip
+/PS-VSPrompt.lnk

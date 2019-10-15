@@ -1373,5 +1373,39 @@ namespace Microsoft.Azure.Commands.Sql.Properties {
                 return ResourceManager.GetString("RemoveElasticJobWarning", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to The selected storage is behind a firewall, authentication with server managed identity is required...
+        /// </summary>
+        internal static string VulnerabilityAssessmentServerManagedIdentityAuthenticationIsRequired
+        {
+            get
+            {
+                return ResourceManager.GetString("VulnerabilityAssessmentServerManagedIdentityAuthenticationIsRequired", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Do you want to use managed identity for storage authentication?
+        /// </summary>
+        internal static string VulnerabilityAssessmentSuggestUsingServerManagedIdentityAuthentication
+        {
+            get
+            {
+                return ResourceManager.GetString("VulnerabilityAssessmentSuggestUsingServerManagedIdentityAuthentication", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to The selected storage is behind a firewall, authentication with managed identity is required in order for vulnerability assessment to work.
+        /// </summary>
+        internal static string VulnerabilityAssessmentStorageBehindFirewallErrorMessage
+        {
+            get
+            {
+                return ResourceManager.GetString("VulnerabilityAssessmentStorageBehindFirewallErrorMessage", resourceCulture);
+            }
+        }
+        
     }
 }

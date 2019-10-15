@@ -421,7 +421,7 @@
     <value>Vulnerability assessment settings are not defined. Please run Update-AzSqlServerVulnerabilityAssessmentSettings first.</value>
   </data>
   <data name="InvalidBlobStorageSasUri" xml:space="preserve">
-    <value>Invalid BlobStorageSasUri parameter value. The value should be in format of https://mystorage.blob.core.windows.net/vulnerability-assessment?st=XXXXXX."</value>
+    <value>Invalid BlobStorageSasUri parameter value. The value should be in format of https://mystorage.blob.core.windows.net/vulnerability-assessment."</value>
   </data>
   <data name="NoStorageAccountSpecified" xml:space="preserve">
     <value>Please provide valid value for StorageAccountName or BlobStorageSasUri parameter.</value>
@@ -576,5 +576,14 @@
   <data name="AzureElasticJobExecutionNotExists" xml:space="preserve">
     <value>Job execution '{0}' does not exist in job '{1}'</value>
     <comment>Elastic Jobs</comment>
+  </data>
+  <data name="VulnerabilityAssessmentServerManagedIdentityAuthenticationIsRequired" xml:space="preserve">
+    <value>The selected storage is behind a firewall, authentication with server managed identity is required in order for vulnerability assessment to work. Do you want to set a managed identity for for this server and use it for storage authentication?</value>
+  </data>
+  <data name="VulnerabilityAssessmentSuggestUsingServerManagedIdentityAuthentication" xml:space="preserve">
+    <value>Do you want to use managed identity for storage authentication?</value>
+  </data>
+  <data name="VulnerabilityAssessmentStorageBehindFirewallErrorMessage" xml:space="preserve">
+    <value>The selected storage is behind a firewall, authentication with managed identity is required in order for vulnerability assessment to work.</value>
   </data>
 </root>
