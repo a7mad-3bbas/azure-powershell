@@ -18,6 +18,8 @@
         - Additional information about change #1
 -->
 ## Upcoming Release
+* Add support for using server managed identity for authentication with azure storage, which will enable using a storage that is behind a firewall and grants access to internal microsoft services. 
+the change has been made to the following cmdlets: Update-AzSqlDatabaseVulnerabilityAssessmentSetting, Update-AzSqlInstanceDatabaseVulnerabilityAssessmentSetting, Update-AzSqlInstanceVulnerabilityAssessmentSetting ,  Update-AzSqlServerVulnerabilityAssessmentSetting.
 * Fix vulnerability assessment set baseline cmdlets functionality to work on master db for azure database and limit it on managed instance system databases. 
 
 ## Version 2.1.1
